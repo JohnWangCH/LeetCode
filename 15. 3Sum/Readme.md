@@ -5,7 +5,7 @@ https://leetcode.com/problems/3sum/
 The initial idea is the same as two sum problem.
 The only difference is that we fixed at current element 'A', and looking for the pair ('B, C') from the rest of the elements. 
 
-So the target value of (B+C) now is varied by (target - A).
+So the target value of (B+C) now is varied by (0 - A).
 
 To reduce the effort of finding pair (B, C) from the rest of the elements, we sort the input array in advance.
 Given that the array is already sorted, we can simply use two pointers (one from the lowest, one from the highest) to find the pair. And HashMap is no longer needed in this case.
