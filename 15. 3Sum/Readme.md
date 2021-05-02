@@ -10,7 +10,7 @@ So the target value of (B+C) now is varied by (target - A).
 To reduce the effort of finding pair (B, C) from the rest of the elements, we sort the input array in advance.
 Given that the array is already sorted, we can simply use two pointers (one from the lowest, one from the highest) to find the pair. And HashMap is no longer needed in this case.
 
-Node: please remember to skip the duplicated element.
+Note: please remember to skip the duplicated element.
 
 # Time Complexity
 
